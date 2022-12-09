@@ -33,3 +33,11 @@ const createPassword = () => {
 ```
 
 ------------------
+
+## Languages
+
+* Russian - Native 
+* English - Intermediate 
+* Czech - Upper-Intermediate
+
+------------------
