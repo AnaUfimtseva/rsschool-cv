@@ -1,9 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/svg/klee.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <title>cv</title>
 </head>
-<body></body>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  </header>
+  <main class="main">
+    <div class="main-container">
+      <section class="section" id="profile">
+          <img class="userpic" src="assets/img/userpic.jpg" alt="userpic" width="300px">
+          <h1 class="title">Anastasia Ufimtseva</h1>
+          <h2>Junior Frontend-developer</h2>
+	    </section>
+
+      <section class="section" id="contacts">
+          <h2  class="section-title">Contacts</h2>
+          <ul>
+            <li>Location: Ekaterinburg, Russia</li>
+            <li>Email: ufimtsevaana@gmail.com</li>
+            <li>Telegram:<a href="https://t.me/anaufimtseva">anaufimtseva</a></li>
+            <li>GitHub:<a href="https://github.com/AnaUfimtseva">AnaUfimtseva</a></li>
+          </ul>
+      </section>
+
+      <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>Hello! My name is Anastasia and I want to become a front-end developer</p>
+      </section>
+        
+      <section class="section" id="skills">        
+        <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+          </ul>
+	    </section>        
+     
+      <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre><code>const createPassword = () => {
+passwordValue= "";
+for (let i = 0; i < passwordLength; i++) {
+let number = Math.floor(Math.random() * characters.length);
+passwordValue += characters.substring(number, number + 1);
+}
+password.value = passwordValue;
+}</code></pre>
+          </section>        
+      
+      <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Tomas Bata University in Zlín</p>
+       </section>        
+      
+      <section class="section" id="English">
+          <h2 class="section-title">English</h2>
+          <p>A2 - Pre-Intermediate</p>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <a href="https://anaufimtseva.github.io/rsschool-cv/" alt="cv">CV</a>
+    </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container-f">
+      <div class="footer-container">
+       <a href="https://github.com/AnaUfimtseva" target="_blank" class="github"><img src="assets/img/github-mark-white.png" alt="github" width="50px" height="50px"></a>
+        <p class="year">©2022</p>
+      <a href="https://rs.school/js/" target="_blank" class="logo"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school" width="50px" height="50px"></a>
+    </div>
+  </div>
+  </footer>  
+</body>
 </html>
